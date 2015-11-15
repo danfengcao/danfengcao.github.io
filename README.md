@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Kunka
 
 > 这只是另外一个 Jekyll 主题文件。
@@ -11,3 +12,6 @@
 * 运行 ```jekyll serve```，浏览器打开 http://localhost:4000 便可以看到新的主题。
 
 更多的介绍，详见[Jekyll 博客主题 Kunka](http://www.zhanxin.info/jekyll/2013-08-11-jekyll-theme-kunka.html)。
+=======
+# danfengcao.github.io
+>>>>>>> 39eb4360bdbd2053568a93cfefc469ada21b365b
