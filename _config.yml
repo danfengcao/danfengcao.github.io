@@ -1,0 +1,112 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:      ./_plugins
+layouts_dir:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+gems: [jekyll-paginate, jekyll-gist]
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Danfeng Cao's Technical Blog
+description: Danfeng Cao's Personal Technical Blog(www.danfengcao.info).
+keywords: Blog
+url:
+feed: /atom.xml
+favicon:
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 关于我
+    url: /about.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: 曹单锋
+    email: danfengcao.info@gmail.com
+    imageLink: images/dfcao-dp-sports-meet.jpg
+    simpleIntro:
+    detailIntro:
+
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/dfcao
+  - class: icon-github-alt
+    url: http://github.com/danfengcao
+  # - class: icon-renren
+  #   url: http://renren.com
+  # - class: icon-twitter
+  #   url: http://twitter.com/piznlin
+  # - class: icon-google-plus
+  #   url: http://google.com
+
+#Links
+customLinks:
+  - item:
+    - text: DanfengCao
+      url: http://www.danfengcao.info
+    - text: DanfengCao
+      url: http://www.danfengcao.info
+    message: Friends
+  - item:
+    - text: DanfengCao
+      url: http://www.danfengcao.info
+    message: 其他相关链接
+
+#googleAnaly, your id link
+googleAnaly:
+  config: false
+  id:
+
+#comment config
+disqus:
+  config: false
+  id: danfengcao
+
+duoshuo:
+  config: true
+  id:
