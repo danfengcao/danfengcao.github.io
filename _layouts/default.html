@@ -106,7 +106,7 @@ _gaq.push(['_trackPageview']);
             <h4 class="title">友链</h4>
             <ul class="list">
               {% for i in site.customLinks %}
-              {% if i.message == "Friends" %}
+              {% if i.message == "NeedLink" %}
               {% for link in i.item %}
               <li><a href="{{ link.url }}" title="{{ link.text }}" target="_blank">{{ link.text }}</a></li>
               {% endfor %}

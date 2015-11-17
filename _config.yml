@@ -77,25 +77,25 @@ follow:
     url: http://weibo.com/dfcao
   - class: icon-github-alt
     url: http://github.com/danfengcao
+  - class: icon-twitter
+    url: http://twitter.com/danfengcao
   # - class: icon-renren
   #   url: http://renren.com
-  # - class: icon-twitter
-  #   url: http://twitter.com/piznlin
   # - class: icon-google-plus
   #   url: http://google.com
 
 #Links
 customLinks:
   - item:
+    - text: 酷客
+      url: http://coolshell.cn/
+    - text: MySQL中文网
+      url: http://imysql.com/
+    - text: MySQL Planet
+      url: http://planet.mysql.com/
     - text: DanfengCao
       url: http://www.danfengcao.info
-    - text: DanfengCao
-      url: http://www.danfengcao.info
-    message: Friends
-  - item:
-    - text: DanfengCao
-      url: http://www.danfengcao.info
-    message: 其他相关链接
+    message: NeedLink
 
 #googleAnaly, your id link
 googleAnaly:
