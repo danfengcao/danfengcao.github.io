@@ -5,6 +5,10 @@ date:   2015-11-21 13:14:00
 category: "MySQL"
 ---
 
+清除历史数据是DBA经常遇到的一个场景。本文将介绍大批量清除数据的两种常用办法。
+
+---
+
 ### 法一：批量、间隔删除
 
 * 用oak-chunk-update工具搞定
@@ -16,13 +20,13 @@ category: "MySQL"
         oak-chunk-update --user='user' --password='passwd' --host=10.1.1.1 --port=3306  --database=db --execute="DELETE FROM history WHERE clock < unix_timestamp('2015-07-01') and OAK_CHUNK(history)" --chunk-size=30000 --sleep=100 --skip-lock-tables -v
 
 
-* 亦可自己写脚本，根据主键ID，删除5,000 - 10,000条，sleep 0.1－1秒.
+* 亦可自己写脚本，根据主键ID，删除5,000 - 10,000条，sleep 0.1 - 1秒.
 
 #### 注意
 
 * 此法不会立即释放磁盘空间，但新插入数据将填补空缺。空缺填满前，磁盘空间不会再增长；
 * 释放空间需要整理碎片(锁表时间会很长)；
-* 若需要立即释放磁盘空间，又不允许长时间锁表，可用法二；
+* 有些场景下需要立即释放磁盘空间，又不允许长时间锁表，可用法二；
 
 
 ---
