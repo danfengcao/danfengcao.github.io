@@ -15,7 +15,7 @@ category: "MySQL"
 
     使用oak-chunk-update需要有**UNIQUE KEY**。
 
-    > [oak-chunk-update](http://code.openark.org/forge/openark-kit): perform long, non-blocking UPDATE/DELETE operation in auto managed small chunks.
+    > [oak-chunk-update](https://openarkkit.googlecode.com/svn/trunk/openarkkit/doc/html/oak-chunk-update.html){:target="_blank"}: Perform long, non-blocking UPDATE/DELETE operation in auto managed small chunks.
 
         oak-chunk-update --user='user' --password='passwd' --host=10.1.1.1 --port=3306  --database=db --execute="DELETE FROM history WHERE clock < unix_timestamp('2015-07-01') and OAK_CHUNK(history)" --chunk-size=30000 --sleep=100 --skip-lock-tables -v
 
