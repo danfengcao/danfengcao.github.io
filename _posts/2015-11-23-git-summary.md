@@ -104,15 +104,15 @@ category: "工具"
 > 删除远程标签比较麻烦, 先删除本地标签, 再执行git push origin :refs/tags/<tagname>
 
 ##### 其他事项
-* .gitingore: 忽略某些文件. **不需要从头写.gitignore文件**, GitHub已经有[repo](https://github.com/github/gitignore) 为我们准备了各种配置文件.
+* .gitingore: 忽略某些文件. **不需要从头写.gitignore文件**, GitHub已经有[repo](https://github.com/github/gitignore){:target="_blank"} 为我们准备了各种配置文件.
 * git configure \--global alias.st status: 配置别名.
 
 > 每个仓库的Git配置文件都放在.git/config文件中, 别名就在[alias]后面, 要删除别名, 删去对应行即可.当前用户的Git配置文件放在用户主目录下的一个隐藏文件.gitconfig中.
 
 > 分布式版本控制系统通常也有一台充当"中央服务器”的电脑, 但这个服务器的作用仅仅是用来方便"交换”大家的修改, 没有它大家也一样干活, 只是交换修改不方便而已.
 
-另外，[git-flow](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html#release)能更方便的进行分支模式开发, 有兴趣的同学可以了解下. 有的开发团队可能会用到.
+另外，[git-flow](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html#release){:target="_blank"} 能更方便的进行分支模式开发, 有兴趣的同学可以了解下. 有的开发团队可能会用到.
 
 ### 参考文献
-1. 廖雪峰, [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000).
-2. Scott Chacon, [Pro Git](http://book.douban.com/subject/3420144/).
+1. 廖雪峰, [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000){:target="_blank"} .
+2. Scott Chacon, [Pro Git](http://book.douban.com/subject/3420144/){:target="_blank"} .
