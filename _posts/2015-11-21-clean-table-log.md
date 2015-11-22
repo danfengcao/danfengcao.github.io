@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  如何大批量清除MySQL历史数据
+title:  如何大批量清除线上MySQL历史数据
 date:   2015-11-21 13:14:00
 comment: true
 category: "MySQL"
 ---
 
-清除历史数据是DBA经常遇到的一个场景。本文将介绍大批量清除数据的两种常用办法。
+清除线上MySQL历史数据是DBA经常遇到的一个场景。本文将介绍安全清除历史数据的两种常用办法。
 
 ---
 
