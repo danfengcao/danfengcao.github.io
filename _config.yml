@@ -43,7 +43,7 @@ timezone:      null
 title: Danfeng Cao's Technical Blog
 description: Danfeng Cao's Personal Technical Blog(www.danfengcao.info).
 keywords: Blog
-url:
+url: ""
 feed: /atom.xml
 favicon:
 

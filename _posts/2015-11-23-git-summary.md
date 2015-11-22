@@ -72,7 +72,7 @@ category: "工具"
 >
 > 首先, master分支应该是非常稳定的, 也就是仅用来发布新版本, 平时不能在上面干活. 那在哪干活呢? 干活都在dev分支上, 也就是说, dev分支是不稳定的, 到某个时候, 比如1.0版本发布时, 再把dev分支合并到master上, 在master分支发布1.0版本.
 你和你的小伙伴们每个人都在dev分支上干活, 每个人都有自己的分支, 时不时地往dev分支上合并就可以了. 所以, 团队合作的分支看起来就像这样:
-![img]({{ site.baseurl }}/images/git-branch-in-dev.png "git branch in dev")
+![img]({{ site.url }}/images/git-branch-in-dev.png "git branch in dev")
 
 ##### bug分支
 > 修复bug时, 我们会通过创建新的bug分支进行修复, 然后合并, 最后删除. 当手头工作没有完成时, 先把工作现场git stash一下, 然后去修复bug, 修复后, 再git stash pop, 回到工作现场.
