@@ -43,7 +43,7 @@ timezone:      null
 title: Danfeng Cao's Technical Blog
 description: Danfeng Cao's Personal Technical Blog(www.danfengcao.info).
 keywords: Blog
-url:
+url: http://www.danfengcao.info
 feed: /atom.xml
 favicon:
 
@@ -55,7 +55,7 @@ nav:
     url: /categories.html
   - text: 文章归档
     url: /archives.html
-  - text: 关于我
+  - text: 关于
     url: /about.html
   - text: 友情链接
     url: /links.html
@@ -87,15 +87,18 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 酷客
-      url: http://coolshell.cn/
     - text: MySQL中文网
       url: http://imysql.com/
     - text: MySQL Planet
       url: http://planet.mysql.com/
-    - text: DanfengCao
-      url: http://www.danfengcao.info
-    message: NeedLink
+    message: MySQL
+  - item:
+    - text: 酷壳
+      url: http://coolshell.cn/
+    - text: DanfengCao在博客园
+      url: http://www.cnblogs.com/dfcao/
+    message: 其他
+
 
 #googleAnaly, your id link
 googleAnaly:
