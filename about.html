@@ -11,20 +11,14 @@ comment: true
         <div class="about-text">
           <p>{{ site.author.simpleIntro }}</p>
           <p>这里是 DanfengCao 的个人站点.</p>
-
-
           <p>本科在 <a href="http://www.shu.edu.cn/" target="_blank">上海大学</a>  胡混, 渡过了非常愉快的本科生活.</p>
           <p>后进入 <a href="http://www.sjtu.edu.cn/" target="_blank">上海交通大学</a> 读研, 师从国内著名生物信息学专家 <a href="http://baike.baidu.com/view/5980686.htm" target="_blank">韦朝春</a>博士.</p>
           <p>毕业后加入<a href="http://www.dianping.com/" target="_blank">大众点评</a>, 目前在DBA组搬砖. 主要工作是数据库相关工具的研发、MySQL运维.</p>
-
           <p>这个站点是我的思考记录, 主要用来帮助自己完善思想, 希望也能对其他人有点用, 但本人不对任何因为阅读造成的后果负责.</p>
-
           <p>
           一切文章皆为原创, 转载本站文章请保留出处.
-
           这里欢迎留言, 但没有智力活动迹象的留言将会被删除.
           </p>
-
         </div>
         <div class="about-image">
           <img src="{{ site.author.imageLink }}" />
@@ -42,12 +36,10 @@ comment: true
       <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     </div>
     <div class="comment">
-        {% if site.disqus.config %}
-        <div id="disqus_thread"></div>
-        {% else %}
-            {% if site.duoshuo.config %}
-            <div class="ds-thread"></div>
-            {% endif %}
-        {% endif %}
+      {% if site.disqus.config %}
+      <div id="disqus_thread"></div>
+      {% else if site.duoshuo.config %}
+      <div class="ds-thread"></div>
+      {% endif %}
     </div>
 </div>

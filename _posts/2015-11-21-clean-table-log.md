@@ -2,6 +2,7 @@
 layout: post
 title:  如何大批量清除MySQL历史数据
 date:   2015-11-21 13:14:00
+comment: true
 category: "MySQL"
 ---
 

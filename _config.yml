@@ -31,7 +31,7 @@ gems: [jekyll-paginate, jekyll-gist]
 detach:       false
 port:         4000
 host:         127.0.0.1
-baseurl:      "" # does not include hostname
+baseurl:      http://www.danfengcao.info
 
 # Outputting
 permalink:     date
@@ -43,7 +43,7 @@ timezone:      null
 title: Danfeng Cao's Technical Blog
 description: Danfeng Cao's Personal Technical Blog(www.danfengcao.info).
 keywords: Blog
-url: http://www.danfengcao.info
+url:
 feed: /atom.xml
 favicon:
 
@@ -57,8 +57,8 @@ nav:
     url: /archives.html
   - text: 关于
     url: /about.html
-  - text: 友情链接
-    url: /links.html
+#  - text: 友链
+#    url: /links.html
 
 #Author config
 author:
@@ -112,4 +112,4 @@ disqus:
 
 duoshuo:
   config: true
-  id: 6217793604186801000
+  id: danfengcao
