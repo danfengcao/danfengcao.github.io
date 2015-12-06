@@ -1,0 +1,107 @@
+---
+title: Love
+---
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Our Love</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      @font-face {
+      font-family: digit;
+      src: url('digital-7_mono.ttf') format("truetype");
+      }
+    </style>
+    <link href="css/marriage_dev.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/marriage_garden_dev.js"></script>
+    <script type="text/javascript" src="js/marriage_functions_dev.js"></script>
+  </head>
+
+  <body>
+    <div id="mainDiv">
+      <div id="content">
+	<div id="code">
+	  <span class="comments"></span><br />
+	  <span class="space"/><span class="comments">2008年，我们都考入了上海大学化学系，成了同班同学。</span><br/><br/>
+          <span class="space"/><span class="comments">我们一起上课，吃饭，玩耍，备考。。。</span><br/><br/>
+          <span class="space"/><span class="comments">坐在畔池那晚，你还记得吗？</span><br/><br/>
+          <div class="panchi-proposal-image" >
+            <img src="images/panchi-proposal.jpg" style="width: 250px; height: auto; border: 2px solid #99b9c4;" />
+          </div>
+          <span class="space"/><span class="comments"></span><br/>
+          <span class="space"/><span class="comments">我们一起学习，享受知识带来的乐趣；一起旅行，感受大千世界的美好。</span><br/><br/>
+          <div class="zhoushan-2011-image" id="zhoushan-2011-image">
+            <img src="images/zhoushan-2011.jpg" style="width: 250px; height: auto; border: 2px solid #99b9c4;" />
+          </div>
+          <span class="space"/><span class="comments"></span><br/>
+          <span class="space"/><span class="comments">我们品尝各地美食，也喜欢在家跟爸妈一起聚餐。</span><br/><br/>
+          <span class="space"/><span class="comments">偶尔也会闹矛盾，我甚至清楚记得刚恋爱时你倔强的脾气。</span><br/><br/>
+          <span class="space"/><span class="comments">纠结，冲动。欢笑，眼泪。轰轰烈烈的校园爱情，一路走到了现在。</span><br/><br/>
+          <span class="space"/><span class="comments">慢慢的，我们都越来越懂得爱了。</span><br/><br/>
+          <span class="space"/><span class="comments">为对方付出，包容对方的瑕疵，一起变的更好。</span><br/><br/>
+          <div class="cixuanfu-2015-image" id="cixuanfu-2015-image">
+            <img src="images/cixuanfu-2015.jpg" style="width: 250px; height: auto; border: 2px solid #99b9c4;" />
+          </div>
+          <span class="space"/><span class="comments"></span><br/>
+          <span class="space"/><span class="comments">转眼，七年就一起走过了。</span><br/><br/>
+          <span class="space"/><span class="comments">好多人觉得七年好长好长，七年一定是个坎，还是个大坎。</span><br/><br/>
+          <span class="space"/><span class="comments">我的感受却是，七年太短，七年前的一幕幕，都如在昨日。</span><br/><br/>
+          <span class="space"/><span class="comments">七年太快，我们还有好多事没做。我们还没爱够。</span><br/><br/>
+          <span class="space"/><span class="comments">感谢老天，让我遇到了你。</span><br/><br/>
+          <span class="space"/><span class="comments">我会一直牵着你的手。</span><br/><br/>
+          <span class="space"/><span class="comments">嫁给我吧！佳丽！</span><br/><br/>
+          <div class="juzi-proposal-image" id="juzi-proposal-image">
+            <img src="images/juzi-proposal.jpg" style="width: 250px; height: auto; border: 2px solid #99b9c4;" />
+          </div>
+        </div>
+	<div id="loveHeart">
+	  <canvas id="garden"></canvas>
+	  <div id="words">
+	    <div id="messages">
+	      <div id="elapseClock"></div>
+	    </div>
+	    <div id="loveu">
+	      Love u forever.<br/>
+	      <!-- <div class="signature">- 大笨熊</div> -->
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var offsetX = $("#loveHeart").width() / 2;
+      var offsetY = $("#loveHeart").height() / 2 - 55;
+      var together = new Date();
+      together.setFullYear(2008, 12, 6);
+      together.setHours(21);
+      together.setMinutes(0);
+      together.setSeconds(0);
+      together.setMilliseconds(0);
+
+      if (!document.createElement('canvas').getContext) {
+      var msg = document.createElement("div");
+      msg.id = "errorMsg";
+      msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+      document.body.appendChild(msg);
+      $("#code").css("display", "none")
+      $("#copyright").css("position", "absolute");
+      $("#copyright").css("bottom", "10px");
+      document.execCommand("stop");
+      } else {
+      setTimeout(function () {
+      startHeartAnimation();
+      }, 5000);
+
+      timeElapse_year(together);
+      setInterval(function () {
+      timeElapse_year(together);
+      }, 500);
+
+      adjustCodePosition();
+      $("#code").typewriter();
+      }
+    </script>
+  </body>
+</html>
