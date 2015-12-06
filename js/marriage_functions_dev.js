@@ -151,23 +151,23 @@ function timeElapse_year(date){
   seconds = seconds % 3600;
   minutes = Math.floor(seconds / 60);
   seconds = seconds % 60;
-  if (seconds < 0) {
+  while (seconds < 0) {
     seconds += 60;
     minutes--;
   }
-  if (minutes < 0) {
+  while (minutes < 0) {
     minutes += 60;
     hours--;
   }
-  if (hours < 0) {
+  while (hours < 0) {
     hours += 24;
     days--;
   }
-  if (days < 0) {
+  while (days < 0) {
     days += getDaysInMonth(new Date().getMonth());
     months--;
   }
-  if (months < 0) {
+  while (months < 0) {
     months += 12;
     years--;
   }
