@@ -139,7 +139,7 @@ function timeElapse_year(date){
     }
     days = current.getDate() - date.getDate();
     if (days > 0) {
-      current.setDate(current.getDate() - months);
+      current.setDate(current.getDate() - days);
     }
   }
   seconds = Math.round((current.getTime() - date.getTime()) / 1000);
@@ -183,7 +183,7 @@ function timeElapse_year(date){
   var result = "";
   if (mode == 1) {
     result = (years > 0 ? "<span class=\"digit\">" + years + "</span> 年 ":"")
-      + (months >= 0 ? "<span class=\"digit\">" + (months+1) + "</span> 月 ":"")
+      + (months >= 0 ? "<span class=\"digit\">" + (months) + "</span> 月 ":"")
       + "<span class=\"digit\">" + days + "</span> 天 "
       + "<span class=\"digit\">" + hours + "</span> 时 "
       + "<span class=\"digit\">" + minutes + "</span> 分 "
