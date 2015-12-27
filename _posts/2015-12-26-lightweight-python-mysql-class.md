@@ -17,7 +17,7 @@ example.py
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from LightMysql import LightMysql # 导入封装类
+from LightMysql import LightMysql
 
 if __name__ == '__main__':
 
@@ -58,10 +58,10 @@ if __name__ == '__main__':
 
 * 或者手动编译安装
 
-> http://mysql-python.sourceforge.net/
+> [http://mysql-python.sourceforge.net/](http://mysql-python.sourceforge.net/){:target="_blank"}
 
 
-#### [LightMysql完整代码](https://github.com/danfengcao/DBATools/tree/master/db_connect)
+#### [LightMysql完整代码](https://github.com/danfengcao/LightMyPy){:target="_blank"}
 
 {% highlight python %}
 
@@ -196,8 +196,10 @@ class LightMysql:
 
 {% endhighlight %}
 
+[克隆LightMyPy代码](https://github.com/danfengcao/LightMyPy){:target="_blank"}
+
 ##### 参考文献
 
-1. [教为学：MySQLdb的几种安装方式](http://www.cnblogs.com/jiaoweixue/archive/2013/05/26/3099537.html?utm_source=tuicool&utm_medium=referral)
-2. [MySQL-Python documentation](http://mysql-python.sourceforge.net/)
-4. [fkook python_mysql](https://github.com/fkook/python_mysql/blob/master/python_mysql.py)
+1. [教为学：MySQLdb的几种安装方式](http://www.cnblogs.com/jiaoweixue/archive/2013/05/26/3099537.html?utm_source=tuicool&utm_medium=referral){:target="_blank"}
+2. [MySQL-Python documentation](http://mysql-python.sourceforge.net/){:target="_blank"}
+3. [fkook python_mysql](https://github.com/fkook/python_mysql/blob/master/python_mysql.py){:target="_blank"}
