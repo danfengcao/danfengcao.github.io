@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  LightMysql：为方便操作MySQL而封装的Python类
-date:   2015-11-26 15:30:00
+date:   2015-12-26 15:30:00
 comment: true
 category: "Python"
 ---
 
-为了简单方便地操作MySQL数据库，我封装了一个轻量级Python类LightMysql。
+mysqldb是Python操作MySQL数据库的一个常用包。但在使用过程中，我认为用起来还不够简便。为此，我在mysqldb的基础上封装了一个Python类LightMysql。
 
 #### 先来看如何使用
 
