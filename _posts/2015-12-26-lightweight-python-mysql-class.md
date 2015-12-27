@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python操作MySQL封装成类
+title:  LightMysql: 为方便操作MySQL而封装的Python类
 date:   2015-11-26 15:30:00
 comment: true
 category: "Python"
@@ -196,7 +196,7 @@ class LightMysql:
 
 {% endhighlight %}
 
-[克隆LightMyPy代码](https://github.com/danfengcao/LightMyPy){:target="_blank"}
+[克隆LightMysql代码](https://github.com/danfengcao/LightMyPy){:target="_blank"}
 
 ##### 参考文献
 
