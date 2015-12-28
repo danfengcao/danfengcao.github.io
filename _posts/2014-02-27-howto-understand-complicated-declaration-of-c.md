@@ -84,4 +84,4 @@ char * const * (*next) ();
 <p>&nbsp;</p>
 
 <p><span style="font-size: 16px;"><strong>参考文献</strong></span></p>
-<p><a href="http://book.douban.com/subject/2377310/">《C专家编程》</a>, Peter Van Der Linden 著, 徐波 译</p>
+<p><a href="http://book.douban.com/subject/2377310/" target="_blank">《C专家编程》</a>, Peter Van Der Linden 著, 徐波 译</p>

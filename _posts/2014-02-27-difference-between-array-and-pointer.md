@@ -71,4 +71,4 @@ print("数组的地址是 %x, 对应的字符串是 %s\n", array, array);
 <p>&nbsp;</p>
 
 <p><span style="font-size: 16px;"><strong>参考文献</strong></span></p>
-<p><a href="http://book.douban.com/subject/2377310/">《C专家编程》</a>, Peter Van Der Linden 著, 徐波 译</p>
+<p><a href="http://book.douban.com/subject/2377310/" target="_blank">《C专家编程》</a>, Peter Van Der Linden 著, 徐波 译</p>
