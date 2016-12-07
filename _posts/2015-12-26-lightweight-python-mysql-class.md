@@ -191,7 +191,7 @@ class LightMysql:
 
 [克隆LightMysql代码](https://github.com/danfengcao/LightMyPy){:target="_blank"}
 
-##### 参考文献
+##### 参考资料
 
 1. [教为学：MySQLdb的几种安装方式](http://www.cnblogs.com/jiaoweixue/archive/2013/05/26/3099537.html?utm_source=tuicool&utm_medium=referral){:target="_blank"}
 2. [MySQL-Python documentation](http://mysql-python.sourceforge.net/){:target="_blank"}
