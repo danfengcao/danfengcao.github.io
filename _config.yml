@@ -93,10 +93,10 @@ customLinks:
       url: http://planet.mysql.com/
     message: MySQL
   - item:
-    - text: 酷壳
-      url: http://coolshell.cn/
-    - text: DanfengCao在博客园
-      url: http://www.cnblogs.com/dfcao/
+    - text: 淘宝MySQL
+      url: mysql.taobao.org/
+    - text: oschina
+      url: my.oschina.net/u/3119184/blog
     message: 其他
 
 
