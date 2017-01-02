@@ -40,8 +40,8 @@ timezone:      null
 
 
 #Site config
-title: Danfeng Cao's Technical Blog
-description: Danfeng Cao's Personal Technical Blog(www.danfengcao.info).
+title: danfengcao's Technical Blog
+description: danfengcao's Personal Technical Blog(www.danfengcao.info).
 keywords: Blog
 url: ""
 feed: /atom.xml
@@ -87,17 +87,17 @@ follow:
 #Links
 customLinks:
   - item:
+    - text: danfengcao in oschina
+      url: http://my.oschina.net/u/3119184/blog
+      message: personal
+  - item:
     - text: MySQL中文网
       url: http://imysql.com/
     - text: MySQL Planet
       url: http://planet.mysql.com/
-    message: MySQL
-  - item:
     - text: 淘宝MySQL
-      url: mysql.taobao.org/
-    - text: oschina
-      url: my.oschina.net/u/3119184/blog
-    message: 其他
+      url: http://mysql.taobao.org/
+    message: MySQL
 
 
 #googleAnaly, your id link
